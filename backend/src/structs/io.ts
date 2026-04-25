@@ -6,6 +6,12 @@ export class ApiResponse {
     ) {}
 }
 
+export interface ConversationMessage {
+    role: 'user' | 'assistant';
+    content: string;
+}
+
 export interface QueryRequest {
     query: string;
+    history?: ConversationMessage[];
 }
