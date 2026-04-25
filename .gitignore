@@ -1,0 +1,6 @@
+# Root-level ignores for the monorepo
+.DS_Store
+*.log
+
+# Planning docs — excluded from version control
+planning/
